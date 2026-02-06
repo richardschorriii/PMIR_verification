@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+pmir_env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Data (large files - will upload to Zenodo instead)
+data/raw/
+*.npz
+*.hdf5
+
+# Results (optional - can include or exclude)
+# results/temp/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*

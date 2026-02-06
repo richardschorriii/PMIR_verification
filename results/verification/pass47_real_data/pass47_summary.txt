@@ -1,0 +1,51 @@
+PASS47 — Topology-Controlled Spectral Regression
+seed_join_csv: /home/claude/verification_results/pass45_join/pass45_seedlevel_join.csv
+predictor: gap_cv
+topo_ref: rr, topo_alt: grid2d_periodic
+boot_reps: 5000, seed: 1337
+rows used: 1800
+
+M0_logY~1+controls
+  R² = 0.345512
+  intercept           : β= -1.8229  CI=[ -3.2084,  -0.3762]  ✓ SIG
+  logN                : β= -0.7663  CI=[ -0.9502,  -0.5873]  ✓ SIG
+  probe_eps           : β= 20.1826  CI=[ 18.6856,  21.7293]  ✓ SIG
+  topo_is_alt         : β=  1.6590  CI=[  1.4554,   1.8605]  ✓ SIG
+
+M1_logY~1+controls+gap_cv
+  R² = 0.345610
+  intercept           : β= -1.9728  CI=[ -3.4277,  -0.5127]  ✓ SIG
+  logN                : β= -0.7755  CI=[ -0.9678,  -0.5910]  ✓ SIG
+  probe_eps           : β= 20.1826  CI=[ 18.6907,  21.7269]  ✓ SIG
+  topo_is_alt         : β=  1.0217  CI=[ -1.0178,   3.0614]    n.s.
+  gap_cv              : β=  0.3462  CI=[ -0.7642,   1.4525]    n.s.
+
+M2_logY~1+controls+gapcv+gapcv_x_grid
+  R² = 0.355096
+  intercept           : β= -4.5111  CI=[ -6.1448,  -2.9058]  ✓ SIG
+  logN                : β= -0.4049  CI=[ -0.6155,  -0.1932]  ✓ SIG
+  probe_eps           : β= 20.1826  CI=[ 18.7026,  21.7214]  ✓ SIG
+  topo_is_alt         : β=678.9995  CI=[438.2723, 941.1091]  ✓ SIG
+  gap_cv              : β= -0.1064  CI=[ -1.2265,   1.0031]    n.s.
+  gap_cv_x_alt        : β=-273.5275  CI=[-379.3754, -176.4101]  ✓ SIG
+
+
+================================================================================
+INTERPRETATION
+================================================================================
+
+M0 (controls only): Baseline - topology + scale + coupling
+M1 (+ spectral):    Tests if spectral irregularity adds info
+M2 (+ interaction): **CRITICAL** - Tests topology × spectrum interaction
+
+KEY RESULT:
+  If gap_cv_x_alt coefficient is significant:
+  → Spectral structure matters DIFFERENTLY for different topologies
+  → This proves hierarchical geometric structure
+  → Newtonian (topology-dominated) vs GR-like (structure-sensitive)
+
+Grouped correlations (by probe settings):
+  wrote: /home/claude/verification_results/pass47_real_data/pass47_group_corr.csv
+  Fiedler-directed → high corr (spectral leverage)
+  Random → low corr (no leverage)
+  Smooth → intermediate

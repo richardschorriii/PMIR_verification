@@ -1,0 +1,18 @@
+# PMIR Verification - Python Dependencies
+# Core scientific computing
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+scipy>=1.10.0,<2.0.0
+
+# Plotting
+matplotlib>=3.7.0,<4.0.0
+
+# Statistical analysis
+statsmodels>=0.14.0,<1.0.0
+
+# Data formats
+openpyxl>=3.1.0  # For Excel file support (if needed)
+
+# Optional but recommended
+jupyter>=1.0.0  # For notebooks
+ipython>=8.0.0  # Interactive Python

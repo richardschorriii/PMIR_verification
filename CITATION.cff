@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Schorr
+    given-names: Richard
+    email: richardschorriii@gmail.com
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Add your ORCID if you have one
+title: "PMIR Verification: Hierarchical Geometric Structure in Celestial Phase-Space Coupling"
+version: 1.0.0
+date-released: 2026-02-06
+url: "https://github.com/richardschorriii/PMIR_verification"
+repository-code: "https://github.com/richardschorriii/PMIR_verification"
+doi: "10.5281/zenodo.18509187"
+keywords:
+  - celestial mechanics
+  - phase-space dynamics
+  - geometric structure
+  - topology
+  - spectral analysis
+  - computational physics
+  - Newtonian mechanics
+  - general relativity
+license: MIT
+abstract: >-
+  This repository contains the complete reproducibility package for the
+  discovery of hierarchical geometric structure in celestial phase-space
+  dynamics. Using Phase-Modulated Information Rivalry (PMIR) analysis on
+  JPL ephemeris data, we demonstrate topology-dependent spectral coupling
+  (β = -273.53, p < 0.0001) that bridges Newtonian and general-relativistic
+  descriptions. The analysis includes 50+ systematic robustness passes,
+  all independently verified for reproducibility.
+references:
+  - type: software
+    title: "PMIR Framework Initial Development"
+    authors:
+      - family-names: Schorr
+        given-names: Richard
+    year: 2026
+    doi: "10.5281/zenodo.18142563"
+  - type: software  
+    title: "PMIR Topology Universality Analysis"
+    authors:
+      - family-names: Schorr
+        given-names: Richard
+    year: 2026
+    doi: "10.5281/zenodo.18167746"

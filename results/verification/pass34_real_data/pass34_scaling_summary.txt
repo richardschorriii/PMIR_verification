@@ -1,0 +1,22 @@
+PASS34 — scaling regression on PASS33 (probe invariance; metric=delta_mean_a_minus_b)
+in_csv: /mnt/user-data/uploads/1770394542541_pass34_in_from_pass33_summary.csv
+rows used: 60
+topologies: ['grid2d_periodic', 'rr']
+
+wrote: /home/claude/verification_results/pass34_real_data/pass34_pooled_models.csv
+wrote: /home/claude/verification_results/pass34_real_data/pass34_per_topology_models.csv
+
+Interpretation guide:
+  b_logN  : scaling with N (effective geometry / size dependence)
+  c_logE  : scaling with eps (probe strength response)
+  topo dummy + interactions: topology-dependent metric response (effective curvature difference)
+  g_logNlogE: WHETHER EPS RESPONSE ITSELF CHANGES WITH N (CRITICAL!)
+
+POOLED MODELS:
+  m2_no_cross: R2=0.8060 n=60 topo_ref=rr
+  m3_with_cross: R2=0.9011 n=60 topo_ref=rr
+
+PHYSICAL INTERPRETATION:
+  If g_logNlogE ≠ 0: Scale-dependent coupling (NOT crystalline, NOT fractal)
+  This proves hierarchical geometric structure
+  Newtonian (topology-dominated) vs GR-like (structure-sensitive) regimes

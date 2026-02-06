@@ -1,0 +1,23 @@
+PASS45 — seed-level spectral join
+collapse_csv: /mnt/user-data/uploads/1770392632911_pass33_by_graph_eps_dir_probe.csv
+spectral_csv: /mnt/user-data/uploads/1770394312126_pass42_eigs_band_metrics.csv
+out_join_csv: /home/claude/verification_results/pass45_join/pass45_seedlevel_join.csv
+
+rows_total: 1800
+rows_with_gap_cv: 1800
+rows_missing_gap_cv: 0
+
+counts by topology:
+topology
+grid2d_periodic    900
+rr                 900
+
+gap_cv availability by topology:
+topology
+grid2d_periodic    900
+rr                 900
+
+N unique (collapse): 3
+N unique (spectral): 5
+N unique (joined): 3
+

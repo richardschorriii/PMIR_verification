@@ -1,0 +1,36 @@
+PASS42 — eigenspace gap test
+search_root: C:\Users\veilbreaker\string_theory\preprint5_topology_universality\analysis_spectral_band_fits\lambda_cache
+pattern: eigs_*.npz
+kmin: 1  kmax_use: 48
+files_scanned: 800
+rows_ok: 800  bad_files: 0
+
+Interpretation:
+  gap_cv low => more uniform spectral spacing in chosen band (more lattice-like / crystalline regularity)
+  gap_cv high => irregular spacing (more disordered / random-graph-like)
+
+TOP (lowest gap_cv) by (topology,N):
+topology    N  seed   gap_cv  gap_mean  gap_std  gap_max_over_min      src
+      rr  256    12 0.382922  0.026202 0.010033         10.383567 key:eigs
+      ws 2048    27 0.424741  0.001761 0.000748         15.287009 key:eigs
+      ws 1024    11 0.431287  0.003809 0.001643         14.919703 key:eigs
+      ws 1024     4 0.435874  0.004042 0.001762          5.979102 key:eigs
+      rr  512     4 0.437761  0.013445 0.005886          8.211114 key:eigs
+      rr  512     3 0.440302  0.013673 0.006020         21.483146 key:eigs
+      rr  256     4 0.442697  0.026584 0.011768         10.535812 key:eigs
+      ws 2048    10 0.445380  0.001648 0.000734          9.392819 key:eigs
+    sbm2  256    10 0.448820  0.023063 0.010351          8.794592 key:eigs
+      rr  256    24 0.451457  0.026006 0.011741         10.541021 key:eigs
+    sbm2  256    29 0.454472  0.022515 0.010232          7.068724 key:eigs
+      ws 2048    18 0.454977  0.001764 0.000803          7.801926 key:eigs
+      rr  512    17 0.458152  0.012671 0.005805         21.964684 key:eigs
+      ws 1024     3 0.465776  0.003863 0.001799          7.644795 key:eigs
+      rr 4096     8 0.465890  0.002476 0.001154          6.528865 key:eigs
+      rr  512    21 0.467364  0.013304 0.006218          8.599900 key:eigs
+      rr  256    20 0.470630  0.025976 0.012225         87.718768 key:eigs
+      rr 4096    15 0.471781  0.002618 0.001235         11.832049 key:eigs
+      rr  256     1 0.473961  0.026717 0.012663         16.631142 key:eigs
+      rr 2048     7 0.476892  0.004160 0.001984         68.894881 key:eigs
+
+BAD FILES (sample):
+NONE

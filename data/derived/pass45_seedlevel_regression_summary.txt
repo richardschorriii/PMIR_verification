@@ -1,0 +1,29 @@
+PASS45 — seed-level spectral regression
+seed_join_csv: analysis_transfer\PMIR_TIME_LOCK_MASTER\runs_eps_sweep\probe_invariance\pass45_seedlevel\pass45_seedlevel_join.csv
+predictor: gap_ratio_safe
+controls: ['logN', 'probe_eps']
+boot_reps: 5000 seed: 1337
+rows used (after dropna): 1800
+
+M0_logY~1+controls
+  r2: 0.248754
+  c1: beta=-0.993348  med=-0.998813  CI=[-2.46414,0.587293]
+  logN: beta=-0.766311  med=-0.764919  CI=[-0.968339,-0.57675]
+  probe_eps: beta=20.1826  med=20.1773  CI=[18.5473,21.8228]
+
+M1_logY~1+controls+gap_ratio_safe
+  r2: 0.115962
+  c1: beta=-0.101761  med=-0.101809  CI=[-0.10408,-0.0994496]
+  logN: beta=-0.798482  med=-0.79875  CI=[-0.815698,-0.78079]
+  probe_eps: beta=-0.00643201  med=-0.00643475  CI=[-0.00677045,-0.0061006]
+  gap_ratio_safe: beta=1.52323e-13  med=1.52767e-13  CI=[1.28231e-13,1.75532e-13]
+
+M2_logY~1+gap_ratio_safe
+  r2: -3.222807
+  c1: beta=-4.06427e-26  med=-4.06422e-26  CI=[-4.28163e-26,-3.85162e-26]
+  gap_ratio_safe: beta=-4.23755e-13  med=-4.2373e-13  CI=[-4.44143e-13,-4.03422e-13]
+
+Grouped correlations (logY vs predictor)
+  group_cols: ['probe_dir_mode', 'probe_mode', 'probe_eps']
+  min_rows_group: 20
+  wrote: analysis_transfer\PMIR_TIME_LOCK_MASTER\runs_eps_sweep\probe_invariance\pass45_seedlevel\pass45_seedlevel_group_corr.csv

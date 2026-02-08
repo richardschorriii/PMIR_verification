@@ -217,7 +217,26 @@ If you use this code or data, please cite:
   url          = {https://github.com/richardschorriii/PMIR_verification}
 }
 ```
+## Manuscript
 
+The complete manuscript is available in the `manuscript/` folder:
+- [Complete Manuscript](manuscript/COMPLETE_MANUSCRIPT_FINAL.md)
+- [Abstract](manuscript/ABSTRACT_FINAL.md)
+- [Methods Section](manuscript/METHODS_SECTION_COMPLETE.md)
+
+### Figures
+All publication figures are in the `figures/` folder with captions.
+
+### Submission Materials
+Cover letter and submission guide in `submission/` folder.
+
+## Citation
+```
+Schorr, R.L. III (2026). Topology-Dependent Spectral Coupling in Phase-Space Networks: 
+Evidence for Regime-Dependent Observational Structure. Zenodo. 
+https://doi.org/10.5281/zenodo.18509187
+```
+(Update DOI after Zenodo upload)
 **Related Preprints**:
 - Schorr, R. (2026). *Phase-Modulated Information Rivalry Framework*. Zenodo. DOI: 10.5281/zenodo.18142563
 - [Additional preprints listed in CITATION.cff]

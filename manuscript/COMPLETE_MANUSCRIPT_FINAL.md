@@ -3,7 +3,7 @@
 **Richard L. Schorr III**
 
 Independent Researcher
-Contact: [Your email]
+Contact: richardschorriii@gmail.com
 
 **Submitted to:** Physical Review E
 
@@ -913,43 +913,58 @@ Independent verification by any researcher is encouraged and supported.
 
 ## REFERENCES
 
-[1-10] Network dynamics and spectral graph theory (standard references)
+## NETWORK SCIENCE FOUNDATIONS [1-5]
 
-[11] Schorr, R.L. III (2026). Topology-Dependent Rivalry Dynamics in Degree- and Spectrum-Controlled Networks. Zenodo. https://doi.org/10.5281/zenodo.18210474
+[1] Newman, M. E. J. (2018). *Networks* (2nd ed.). Oxford University Press.
 
-[12] Schorr, R.L. III (2026). Continuum Scaling Limits of PMIR Rivalry Dynamics in Networked Oscillator Systems. Zenodo. https://doi.org/10.5281/zenodo.18226938
+[2] Barabási, A.-L. (2016). *Network Science*. Cambridge University Press.
 
-[13] Schorr, R.L. III (2026). Anomalous Low-Mode Transport and Emergent Medium Behavior in PMIR Rivalry Dynamics. Zenodo. https://doi.org/10.5281/zenodo.18275923
+[3] Strogatz, S. H. (2001). Exploring complex networks. *Nature*, 410(6825), 268-276.
 
-[14] Schorr, R.L. III (2026). Universality of Emergent Medium Response in Phase-Modulated Information Rivalry (PMIR) Systems. Zenodo. https://doi.org/10.5281/zenodo.18282356
+[4] Boccaletti, S., Latora, V., Moreno, Y., Chavez, M., & Hwang, D.-U. (2006). Complex networks: Structure and dynamics. *Physics Reports*, 424(4-5), 175-308.
 
-[15] Schorr, R.L. III (2026). Spectral-Band Universality in Phase-Modulated Information Rivalry Dynamics. Zenodo. https://doi.org/10.5281/zenodo.18293869
-
-[16-20] Graph-based approaches to quantum gravity, lattice field theory (standard references)
+[5] Arenas, A., Díaz-Guilera, A., Kurths, J., Moreno, Y., & Zhou, C. (2008). Synchronization in complex networks. *Physics Reports*, 469(3), 93-153.
 
 ---
 
-**END OF MANUSCRIPT**
+## SPECTRAL GRAPH THEORY [6-10]
 
-**Word Count:** ~8,500 words
-**Page Estimate:** ~25-30 pages (Physical Review E format)
-**Figures Needed:** 6-8 (spectral distributions, interaction plots, regime comparison, robustness tests)
-**Tables Needed:** 4-5 (regression results, model comparison, robustness tests, spectral metrics)
+[6] Chung, F. R. K. (1997). *Spectral Graph Theory*. American Mathematical Society.
 
-**Submission Checklist:**
-- ✅ Complete manuscript
-- ✅ Abstract (297 words)
-- ✅ Introduction with clear hypothesis
-- ✅ Comprehensive Methods section
-- ✅ Quantitative Results
-- ✅ Discussion with appropriate caveats
-- ✅ Conclusion
-- ✅ References to all 5 preprints
-- ✅ Data availability statement
-- ✅ Reproducibility emphasis
+[7] von Luxburg, U. (2007). A tutorial on spectral clustering. *Statistics and Computing*, 17(4), 395-416.
 
-**Ready for:**
-- Journal submission (Physical Review E primary target)
-- Preprint server (Zenodo or similar)
-- Funding proposals (NSF, Templeton, FQXi)
-- Conference presentations
+[8] Spielman, D. A. (2012). Spectral graph theory. In *Combinatorial Scientific Computing* (pp. 495-524). Chapman and Hall/CRC.
+
+[9] Mohar, B. (1991). The Laplacian spectrum of graphs. *Graph Theory, Combinatorics, and Applications*, 2(871-898), 12.
+
+[10] Merris, R. (1994). Laplacian matrices of graphs: A survey. *Linear Algebra and its Applications*, 197-198, 143-176.
+
+---
+
+## PMIR PREPRINTS [11-15]
+
+[11] Schorr, R. L., III (2026). Topology-Dependent Rivalry Dynamics in Degree- and Spectrum-Controlled Networks. *Zenodo*. https://doi.org/10.5281/zenodo.18210474
+
+[12] Schorr, R. L., III (2026). Continuum Scaling Limits of PMIR Rivalry Dynamics in Networked Oscillator Systems. *Zenodo*. https://doi.org/10.5281/zenodo.18226938
+
+[13] Schorr, R. L., III (2026). Anomalous Low-Mode Transport and Emergent Medium Behavior in PMIR Rivalry Dynamics. *Zenodo*. https://doi.org/10.5281/zenodo.18275923
+
+[14] Schorr, R. L., III (2026). Universality of Emergent Medium Response in Phase-Modulated Information Rivalry (PMIR) Systems. *Zenodo*. https://doi.org/10.5281/zenodo.18282356
+
+[15] Schorr, R. L., III (2026). Spectral-Band Universality in Phase-Modulated Information Rivalry Dynamics. *Zenodo*. https://doi.org/10.5281/zenodo.18293869
+
+---
+
+## GRAPH-BASED PHYSICS [16-20]
+
+[16] Oriti, D. (Ed.). (2009). *Approaches to Quantum Gravity: Toward a New Understanding of Space, Time and Matter*. Cambridge University Press.
+
+[17] Konopka, T., Markopoulou, F., & Severini, S. (2008). Quantum graphity: A model of emergent locality. *Physical Review D*, 77(10), 104029.
+
+[18] Loll, R. (2019). Quantum gravity from causal dynamical triangulations: A review. *Classical and Quantum Gravity*, 37(1), 013002.
+
+[19] Ambjørn, J., Görlich, A., Jurkiewicz, J., & Loll, R. (2012). Nonperturbative quantum gravity. *Physics Reports*, 519(4-5), 127-210.
+
+[20] Rovelli, C., & Vidotto, F. (2014). *Covariant Loop Quantum Gravity: An Elementary Introduction to Quantum Gravity and Spinfoam Theory*. Cambridge University Press.
+
+

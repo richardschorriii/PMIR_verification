@@ -2,7 +2,7 @@
 
 ---
 
-**Date:** [Insert submission date]
+**Date:** Feburary 7, 2026
 
 **To:** The Editors
 **Physical Review E**
@@ -11,7 +11,7 @@ American Physical Society
 **Re:** Manuscript Submission - "Topology-Dependent Spectral Coupling in Phase-Space Networks: Evidence for Regime-Dependent Observational Structure"
 
 **Author:** Richard L. Schorr III  
-**Email:** [Your email]  
+**Email:** richardschorriii@gmail.com  
 **Status:** Independent Researcher
 
 Dear Editor,
@@ -65,16 +65,6 @@ This manuscript is ideally suited for Physical Review E for several reasons:
 
 The work addresses fundamental questions about when and why microscopic structure affects macroscopic behavior in networked systems—a central theme in statistical physics.
 
-## Suggested Reviewers
-
-I suggest the following potential reviewers with expertise in spectral graph theory, network dynamics, and complex systems:
-
-1. **Dr. Mark Newman** (University of Michigan) - Network science and statistical physics
-2. **Dr. Albert-László Barabási** (Northeastern University) - Complex networks and network medicine
-3. **Dr. Mason Porter** (UCLA) - Network science and dynamical systems
-4. **Dr. Ulrike von Luxburg** (University of Tübingen) - Spectral clustering and graph theory
-5. **Dr. Steven Strogatz** (Cornell University) - Nonlinear dynamics and complex systems
-
 I have no financial or professional conflicts of interest with any potential reviewers.
 
 ## Competing Interests and Prior Publication
@@ -103,47 +93,12 @@ Sincerely,
 Independent Researcher
 
 **Contact Information:**
-Email: [Your email]
-ORCID: [Your ORCID if you have one]
-
+Email: richardschorriii@gmail.com
+ORCID: https://orcid.org/0009-0006-8167-9589
 ---
 
 **Enclosures:**
 - Manuscript (PDF, 30 pages)
 - 7 figures (separate high-resolution PNG files)
 - Supplementary materials statement (data availability)
-
----
-
-## NOTES FOR YOU:
-
-**Before sending, fill in:**
-- [ ] Your actual address
-- [ ] Your email address
-- [ ] Today's date
-- [ ] Your ORCID (if you have one - free to get at orcid.org)
-
-**Suggested reviewers:**
-- I listed 5 top people in the field
-- You can keep these or change based on who you know/trust
-- PRE doesn't require you to suggest reviewers, but it helps
-
-**Cover letter length:**
-- This is ~1,100 words (a bit long but appropriate for significant result)
-- Can shorten if needed, but thoroughness helps for novel claims
-
-**Tone:**
-- Professional and confident but not arrogant
-- Emphasizes significance without overclaiming
-- Clear about scope (computational phenomenology, not new physics)
-- Highlights reproducibility (major plus for PRE)
-
-**Key strategic elements:**
-1. ✅ Summarizes main finding up front
-2. ✅ Explains why it matters (3 contributions)
-3. ✅ Addresses reproducibility explicitly
-4. ✅ Sets appropriate scope (no overclaims)
-5. ✅ Explains fit with journal
-6. ✅ Declares no conflicts
-7. ✅ Notes data/code availability
 
